@@ -1,0 +1,26 @@
+/*
+Version: 1.0
+Last edited by: Natalia Pakhomova
+Last edit date: 25/02/2022
+Base SCSS file of the project, contains all base styles
+*/
+
+@use '../abstracts/' as *;
+
+body {
+  font-family: $primaryFont;
+  background: $primaryColor;
+  box-sizing: border-box;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.apptheme {
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+  flex: 1;
+}

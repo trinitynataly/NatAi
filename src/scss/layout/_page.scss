@@ -1,0 +1,18 @@
+/*
+Version: 1.0
+Last edited by: Natalia Pakhomova
+Last edit date: 25/02/2022
+Base page styles
+*/
+
+// full-screen into block style
+.page-container {
+  padding-top: 120px;
+  background-color: rgb(103, 103, 103);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  min-height: 800px;
+  position: relative;
+}

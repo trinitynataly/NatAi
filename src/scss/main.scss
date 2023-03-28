@@ -1,0 +1,33 @@
+/*
+Version: 1.4
+Last edited by: Natalia Pakhomova
+Last edit date: 22/03/2022
+Main SCSS file of the project, links all other SCSS files together
+*/
+
+/** TABLE OF CONTENTS
+-----------------------
+-- REMINDER: abstract/variables.scss needs to be brought into components that require it! 
+
+-- NEW: vendor imports
+-- base imports
+-- layout imports
+-- page imports
+**/
+
+// vendor imports
+@use './vendors/bootstrap';
+
+// base imports
+@use './base/base';
+
+// layout imports
+@use './layout/footer';
+@use './layout/header';
+@use './layout/page';
+
+//page imports
+@use './pages/home';
+@use './pages/about';
+@use './pages/not_found';
+@use './pages/projects';

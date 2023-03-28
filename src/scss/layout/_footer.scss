@@ -1,0 +1,36 @@
+/*
+Version: 1.1
+Last edited by: Natalia Pakhomova
+Last edit date: 10/02/2022
+Base page styles
+*/
+
+@use '../abstracts/' as *;
+
+// Footer navigation
+.footer-nav {
+  width: 100%;
+  background-color: #231237;
+  padding: 50px 0;
+  // Footer menu link style
+  .nav-link {
+      color: #fff;
+      text-transform: uppercase;
+  }
+  // Logo style for the footer
+  .logo {
+    img {
+        width: 200px;
+    }
+  }
+}
+
+// Copyright text style
+.footer-text {
+  font-size: 12px;
+  text-align: center;
+  color: #fff;
+  margin-top: 30px;
+  padding-top: 15px;
+  border-top: 1px dotted #fff;
+}

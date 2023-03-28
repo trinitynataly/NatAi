@@ -1,0 +1,60 @@
+/*
+Version: 1.5
+Last edited by: Natalia Pakhomova
+Last edit date: 27/03/2022
+About page styles
+*/
+
+// Full-screen into block background
+.about-page-container {
+  background-image: url("../../assets/about_background.jpg");
+}
+
+// About page text
+.about-page-text {
+  color: #fff;
+  width: 100%;
+  text-align: center;
+  font-size: 30px;
+  line-height: 1.4;
+  font-style: italic;
+  font-weight: 300;
+  position: absolute;
+  bottom: 15%;
+  left: 0;
+
+  p {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 10px 10px;
+
+  }
+}
+
+// About me block styles
+.about-me {
+  font-size: 30px;
+  font-weight: 300;
+  color: #1E1E1E;
+  text-align: left;
+  padding: 50px 0;
+  // Header style
+  h2 {
+    font-size: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 300;
+    color: #718EC4;
+    margin-bottom: 10px;
+
+  }
+
+  // Photo style
+  .photo {
+    max-width: 500px;
+    width: 100%;
+    border-radius: 500px;
+    margin: 30px;
+    border: 10px solid #e4e4e4;
+  }
+}

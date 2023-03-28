@@ -1,0 +1,108 @@
+/*
+Version: 1.3
+Last edited by: Natalia Pakhomova
+Last edit date: 27/03/2022
+Home page styles
+*/
+
+// Full-screen into block background
+.home-page-container {
+  background-image: url("../../assets/home_background.jpg");
+}
+
+// Home page text style
+.home-page-text {
+  color: #fff;
+  width: 100%;
+  text-align: center;
+  font-size: 36px;
+  line-height: 1.4;
+  font-style: italic;
+  font-weight: 300;
+  position: absolute;
+  bottom: 15%;
+  left: 0;
+
+  p {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 10px 10px;
+
+  }
+}
+
+// Features block styles
+.block-features {
+  padding: 50px 0;
+
+  h2 {
+    font-size: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 300;
+    color: #718EC4;
+    margin-bottom: 10px;
+
+  }
+
+  .content-center {
+    font-size: 30px;
+    font-weight: 300;
+    color: #1E1E1E;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  // Features list style
+  .feature-list {
+    // Features item style
+    .feature {
+      border-top: 0.3px solid #DC8998;
+      border-left: 0.3px solid #DC8998;
+      border-radius: 10px;
+      box-shadow: 4px 4px 4px rgba(220, 137, 152, 0.2);
+      padding: 20px;
+
+      img {
+        width: 100%;
+        max-width: 60px;
+        margin: 0 auto;
+        display: block;
+        border: 0;
+
+      }
+
+      p {
+        font-size: 20px;
+        margin: 10px 0 0 0;
+        text-align: center;
+        font-weight: 300;
+
+      }
+    }
+  }
+}
+
+// Proficiencies block styles
+.block-proficiencies {
+  font-size: 30px;
+  font-weight: 300;
+  color: #1E1E1E;
+  text-align: left;
+  background: linear-gradient(180deg, rgba(220, 137, 152, 0.20) 0%, rgba(113, 142, 196, 0.20) 60%);
+  padding: 50px 0;
+  // Higlighted text style
+  .colour-content {
+    color: #DC8998;
+  }
+
+  h2 {
+    font-size: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 300;
+    color: #718EC4;
+    margin-bottom: 10px;
+
+  }
+}

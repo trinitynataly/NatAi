@@ -1,0 +1,98 @@
+/*
+Version: 1.5
+Last edited by: Natalia Pakhomova
+Last edit date: 27/03/2022
+SCSS file for the header and floating contacts box styles
+*/
+
+// Header navigation
+.header-nav {
+  position: absolute;
+  z-index: 100;
+  width: 100%;
+  background-color: transparent;
+  padding-top: 20px;
+
+  // Top menu link style
+  .nav-link {
+    color: #fff;
+    text-transform: uppercase;
+    // hover style
+    &:hover {
+      color: #DC8998;
+    }
+
+    // Active style
+    &.active {
+      font-weight: 800;
+      color: #FFF !important;
+    }
+  }
+
+  // Logo style
+  .logo {
+    img {
+      width: 200px;
+    }
+  }
+}
+
+// Floating contacts box
+.contacts {
+  position: absolute;
+  background-color: rgba(113, 142, 196, 0.6);
+  border-radius: 10px 0 0 10px;
+  padding: 10px 10px 0 10px;
+  z-index: 100;
+  right: 0;
+  top: 200px;
+  // Flexbox for the contacts box
+  .nav {
+    flex-direction: column;
+    // Contact link style
+    .nav-link {
+      padding: 0;
+      width: 45px;
+      height: 45px;
+      margin-bottom: 10px;
+      // Contact icon style
+      img {
+        width: 45px;
+        height: 45px;
+        border: 0;
+        opacity: 50%;
+        // Hover style
+        &:hover {
+          opacity: 100%;
+        }
+      }
+    }
+  }
+}
+
+// Mobile version
+@media (max-width: 768px) {
+  // Move down the header to make room for the floating contacts box
+  .header-nav {
+    top: 75px;
+
+  }
+  // Make the floating contacts box full width and horizontal on top of the page
+  .contacts {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border-radius: 0;
+    padding: 10px;
+    // Change direction to horizontal
+    .nav {
+      flex-direction: row;
+      justify-content: center;
+      // Contact link style for mobile
+      .nav-link {
+        margin: 0 5px;
+      }
+    }
+  }
+}
