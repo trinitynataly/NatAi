@@ -1,7 +1,7 @@
 /*
 Version: 1.12
 Last edited by: Natalia Pakhomova
-Last edit date: 28/03/2022
+Last edit date: 28/03/2023
 This script implements the project list
 */
 
@@ -167,8 +167,7 @@ const ProjectList = () => {
                 {projects.map((project, index) => (
                     <>
                         {/* if activeTag is set, only show projects that have the active tag */}
-                        {(!activeTag || project.tags.includes(activeTag)) ? <Col key={index}
-                                                                                 className="col col-md-6 mb-3"> {/* render projects two per row on desktop, one per row on mobile */}
+                        {(!activeTag || project.tags.includes(activeTag)) ? <Col key={index} md={6} className="mb-3"> {/* render projects two per row on desktop, one per row on mobile */}
                             {/* If this project is the active project, show the expanded version */}
                             <div className={`project-card${index === activeProject ? ' expanded' : ''}`}
                                  onClick={() => handleProjectClick(index)}> {/* If project card is clicked - set it as expanded */}

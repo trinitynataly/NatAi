@@ -1,7 +1,7 @@
 /*
 Version: 1.1
 Last edited by: Natalia Pakhomova
-Last edit date: 20/02/2022
+Last edit date: 20/02/2023
 Main script of the application
 */
 

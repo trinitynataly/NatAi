@@ -1,7 +1,7 @@
 /*
-Version: 1.0
+Version: 1.1
 Last edited by: Natalia Pakhomova
-Last edit date: 25/02/2022
+Last edit date: 29/03/2023
 Base SCSS file of the project, contains all base styles
 */
 
@@ -9,7 +9,7 @@ Base SCSS file of the project, contains all base styles
 
 body {
   font-family: $primaryFont;
-  background: $primaryColor;
+  background: $whiteColor;
   box-sizing: border-box;
 }
 

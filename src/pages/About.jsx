@@ -1,7 +1,7 @@
 /*
-Version: 1.2
+Version: 1.3
 Last edited by: Natalia Pakhomova
-Last edit date: 26/03/2022
+Last edit date: 29/03/2023
 This script implements the about page
 */
 
@@ -15,7 +15,7 @@ const About = () => {
             {/* Start of about page, render full-screen top block with intro text */}
             <div className="page-container about-page-container">
                 <Container>
-                    <div className='about-page-text'>
+                    <div className='page-text'>
                         <p>
                             Greetings, digital wanderer! Welcome to my little corner of the internet, where I fuse my
                             passions for programming, coding, design and photography into a delightful concoction of
@@ -31,12 +31,12 @@ const About = () => {
             </div>
             {/* End of full-screen block */}
             {/* Start of about me section */}
-            <div className='about-me'>
+            <div className='text-container'>
                 <Container>
                     {/* Render block header */}
                     <h2>About Me</h2>
                     {/* Render my photo centered */}
-                    <p className="text-center"><img src={Photo} className="photo" alt=""/></p>
+                    <p className="text-center"><img src={Photo} className="profile-photo" alt=""/></p>
                     {/* Render about me text */}
                     <p>Welcome to my online sanctuary, where artistic flair and technical expertise unite to deliver
                         exceptional outcomes. As an accomplished programmer, designer, and web developer, I've dedicated

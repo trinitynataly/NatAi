@@ -1,9 +1,11 @@
 /*
-Version: 1.5
+Version: 1.6
 Last edited by: Natalia Pakhomova
-Last edit date: 27/03/2022
+Last edit date: 29/03/2023
 SCSS file for the header and floating contacts box styles
 */
+
+@use '../abstracts/' as *;
 
 // Header navigation
 .header-nav {
@@ -15,17 +17,17 @@ SCSS file for the header and floating contacts box styles
 
   // Top menu link style
   .nav-link {
-    color: #fff;
+    color: $whiteColor;
     text-transform: uppercase;
     // hover style
     &:hover {
-      color: #DC8998;
+      color: $complementaryColor;
     }
 
     // Active style
     &.active {
       font-weight: 800;
-      color: #FFF !important;
+      color: $whiteColor !important;
     }
   }
 
@@ -40,7 +42,7 @@ SCSS file for the header and floating contacts box styles
 // Floating contacts box
 .contacts {
   position: absolute;
-  background-color: rgba(113, 142, 196, 0.6);
+  background-color: transparentize($primaryColor, 0.4);
   border-radius: 10px 0 0 10px;
   padding: 10px 10px 0 10px;
   z-index: 100;
@@ -92,6 +94,13 @@ SCSS file for the header and floating contacts box styles
       // Contact link style for mobile
       .nav-link {
         margin: 0 5px;
+        width: 35px;
+        height: 35px;
+        // Contact icon style for mobile
+        img {
+          width: 35px;
+          height: 35px;
+        }
       }
     }
   }

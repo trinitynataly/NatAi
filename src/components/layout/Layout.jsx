@@ -1,7 +1,7 @@
 /*
 Version: 1.1
 Last edited by: Natalia Pakhomova
-Last edit date: 20/03/2022
+Last edit date: 20/03/2023
 This script implements the main layout for the app
 */
 

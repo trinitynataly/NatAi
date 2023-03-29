@@ -1,7 +1,7 @@
 /*
-Version: 1.1
+Version: 1.3
 Last edited by: Natalia Pakhomova
-Last edit date: 10/02/2022
+Last edit date: 29/03/2023
 Base page styles
 */
 
@@ -10,11 +10,11 @@ Base page styles
 // Footer navigation
 .footer-nav {
   width: 100%;
-  background-color: #231237;
+  background-color: $darkColor;
   padding: 50px 0;
   // Footer menu link style
   .nav-link {
-      color: #fff;
+      color: $whiteColor;
       text-transform: uppercase;
   }
   // Logo style for the footer
@@ -29,8 +29,8 @@ Base page styles
 .footer-text {
   font-size: 12px;
   text-align: center;
-  color: #fff;
+  color: $whiteColor;
   margin-top: 30px;
   padding-top: 15px;
-  border-top: 1px dotted #fff;
+  border-top: 1px dotted $whiteColor;
 }

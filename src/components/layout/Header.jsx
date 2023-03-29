@@ -1,7 +1,7 @@
 /*
 Version: 1.3
 Last edited by: Natalia Pakhomova
-Last edit date: 25/03/2022
+Last edit date: 25/03/2023
 This script implements the common page header component
 */
 

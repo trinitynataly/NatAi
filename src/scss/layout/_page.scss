@@ -1,18 +1,119 @@
 /*
-Version: 1.0
+Version: 1.1
 Last edited by: Natalia Pakhomova
-Last edit date: 25/02/2022
+Last edit date: 29/03/2023
 Base page styles
 */
 
 // full-screen into block style
+
+@use '../abstracts/' as *;
+
 .page-container {
   padding-top: 120px;
-  background-color: rgb(103, 103, 103);
+  background-color: $greyColor;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   height: 100vh;
-  min-height: 800px;
+  min-height: 950px;
   position: relative;
+
+  // Full-screen block page text style
+  .page-text {
+    color: $whiteColor;
+    width: 100%;
+    text-align: center;
+    font-size: 36px;
+    line-height: 1.4;
+    font-style: italic;
+    font-weight: normal;
+    position: absolute;
+    left: 0;
+    bottom: 15%;
+
+    p {
+      max-width: 1050px;
+      margin: 0 auto;
+      padding: 0 70px 10px;
+      font-weight: 300;
+    }
+
+    H1 {
+      font-size: 200px;
+      font-style: italic;
+      font-weight: 500;
+      padding-top: 30px;
+    }
+  }
+}
+
+// Text container block style
+.text-container {
+  font-size: 30px;
+  font-weight: 300;
+  color: $textColor;
+  text-align: center;
+  padding: 50px 0;
+
+  // block header style
+  h2 {
+    font-size: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 300;
+    color: $primaryColor;
+    margin-bottom: 10px;
+  }
+  // Photo style
+  .profile-photo {
+    max-width: 500px;
+    width: 80%;
+    border-radius: 500px;
+    margin: 30px 0;
+    border: 10px solid $lightGreyColor;
+  }
+
+  .text-highlight {
+    color: $complementaryColor;
+  }
+}
+
+@media (max-width: 992px) {
+  .page-container {
+    min-height: 750px;
+    .page-text {
+      font-size: 30px;
+      p {
+        font-size: 20px;
+      }
+      H1 {
+        font-size: 150px;
+      }
+    }
+  }
+  // Text container block style
+  .text-container {
+    font-size: 25px;
+    // block header style
+    h2 {
+      font-size: 35px;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .page-container {
+    .page-text {
+      font-size: 26px;
+      line-height: 1.3;
+      bottom: 5%;
+      p {
+        padding: 0 20px;
+      }
+      H1 {
+        font-size: 130px;
+      }
+    }
+  }
 }

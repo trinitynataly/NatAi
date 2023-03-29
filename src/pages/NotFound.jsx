@@ -1,7 +1,7 @@
 /*
-Version: 1.1
+Version: 1.2
 Last edited by: Natalia Pakhomova
-Last edit date: 27/03/2022
+Last edit date: 29/03/2023
 This script implements the 404 page
 */
 
@@ -13,7 +13,7 @@ const NotFound = () => {
         <div className="page-container notfound-page-container">
             {/* Start of 404 page */}
             <Container>
-                <div className='notfound-page-text'>
+                <div className='page-text'>
                     {/* 404 page title */}
                     <h1>404</h1>
                     {/* 404 page text */}

@@ -1,7 +1,7 @@
 /*
-Version: 1.3
+Version: 1.4
 Last edited by: Natalia Pakhomova
-Last edit date: 25/03/2022
+Last edit date: 25/03/2023
 This script implements the projects page
 */
 
@@ -18,7 +18,7 @@ const Projects = () => {
             {/* Start of projects page, render full-screen intro block */}
             <div className="page-container projects-page-container">
                 <Container>
-                    <div className='projects-page-text'>
+                    <div className='page-text'>
                         {/* Render Projects page intro text */}
                         <p>
                             Discover the captivating array of projects that grace my portfolio, each meticulously
@@ -32,7 +32,7 @@ const Projects = () => {
                 </Container>
             </div>
             {/* End of full-screen intro block, render my project list */}
-            <div className='my-projects'>
+            <div className='text-container'>
                 <Container>
                     {/* Render My projects title */}
                     <h2>My Projects</h2>

@@ -1,7 +1,7 @@
 /*
-Version: 1.4
+Version: 1.5
 Last edited by: Natalia Pakhomova
-Last edit date: 28/03/2022
+Last edit date: 29/03/2023
 This script implements the home page
 */
 
@@ -63,7 +63,7 @@ const Home = () => {
             {/* Start of home page, render full-screen intro block */}
             <div className="page-container home-page-container">
                 <Container>
-                    <div className='home-page-text'>
+                    <div className='page-text'>
                         {/* Render intro text */}
                         <p>
                             Welcome to my portfolio, where creativity meets functionality. As a skilled web developer
@@ -75,12 +75,12 @@ const Home = () => {
             </div>
             {/* End of full-screen intro block */}
             {/* Start of my strengths block */}
-            <div className='block-features'>
+            <div className='text-container'>
                 <Container>
                     {/* Render my strengths title */}
                     <h2>My strengths</h2>
                     {/* Render my strengths description */}
-                    <p className='content-center'>Delivering outstanding web development and programming solutions with
+                    <p>Delivering outstanding web development and programming solutions with
                         a client-focused approach, exceptional attention to detail, and a commitment to on-time
                         delivery.</p>
                     {/* Render my strengths list */}
@@ -99,29 +99,29 @@ const Home = () => {
             </div>
             {/* End of my strengths block */}
             {/* Start of my proficiencies block */}
-            <div className='block-proficiencies'>
+            <div className='text-container block-proficiencies'>
                 <Container>
                     {/* Render my proficiencies title */}
                     <h2>Technical Proficiencies</h2>
                     {/* Render my proficiencies description, highlight all keywords with special style */}
                     <p>As a multifaceted developer, I pride myself on my extensive technical proficiency, which
                         encompasses a wide range of technologies and languages. With a firm grasp on <strong
-                            className='colour-content'>PHP</strong> and <strong
-                            className='colour-content'>MySQL</strong>, I am adept at creating powerful, data-driven web
+                            className='text-highlight'>PHP</strong> and <strong
+                            className='text-highlight'>MySQL</strong>, I am adept at creating powerful, data-driven web
                         applications. My expertise in AWS allows me to deploy and manage scalable cloud infrastructure,
                         ensuring seamless performance. Fluent in <strong
-                            className='colour-content'>HTML5</strong>, <strong className='colour-content'>CSS3</strong>,
-                        and <strong className='colour-content'>JavaScript</strong>, I can craft responsive and visually
+                            className='text-highlight'>HTML5</strong>, <strong className='text-highlight'>CSS3</strong>,
+                        and <strong className='text-highlight'>JavaScript</strong>, I can craft responsive and visually
                         appealing websites that stand out. My experience with <strong
-                            className='colour-content'>Node.js</strong> and <strong
-                            className='colour-content'>React</strong> enables me to build cutting-edge, full-stack
+                            className='text-highlight'>Node.js</strong> and <strong
+                            className='text-highlight'>React</strong> enables me to build cutting-edge, full-stack
                         applications that cater to diverse user needs. Additionally, my <strong
-                            className='colour-content'>Python</strong> and <strong
-                            className='colour-content'>Django</strong> skills empower me to develop robust and efficient
+                            className='text-highlight'>Python</strong> and <strong
+                            className='text-highlight'>Django</strong> skills empower me to develop robust and efficient
                         backend systems. Not only am I well-versed in the technical realm, but I also excel in popular
                         content management systems such as <strong
-                            className='colour-content'>WordPress</strong> and <strong
-                            className='colour-content'>Elementor</strong>, allowing me to deliver fully-customized web
+                            className='text-highlight'>WordPress</strong> and <strong
+                            className='text-highlight'>Elementor</strong>, allowing me to deliver fully-customized web
                         solutions with ease. Overall, my technical proficiency is the driving force behind my ability to
                         deliver outstanding results in every project I undertake.</p>
                 </Container>
